@@ -1,0 +1,42 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+_help/
+.gradle
+out
+node_modules
+/comp/**/*
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Windows image file caches
+Thumbs.db
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Click-Once directory
+publish/
+
+.idea/
+.vs/
+
+# SQL Server files
+*.mdf
+*.ldf
