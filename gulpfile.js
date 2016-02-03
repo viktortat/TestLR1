@@ -87,7 +87,7 @@ gulp.task('cleanDoc', function (cb) {
 // Работа с html
 gulp.task('build:html', function () {
     gulp.src('./app/*.html')
-    //.pipe(connect.reload())
+    .pipe(connect.reload())
     .pipe(livereload())
 });
 
